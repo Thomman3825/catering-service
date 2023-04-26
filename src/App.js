@@ -4,7 +4,7 @@ import Services from './Services/Services';
 
 function App() {
   return (
-    <div className="Container">
+    <div className="Container App">
       <div>Nav</div>
       <div>
         <Services></Services>

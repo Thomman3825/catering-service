@@ -1,41 +1,40 @@
 {
-  "users":[
+  "users": [
     {
-      "id":1,
-      "role":"admin",
-      "userName":"adminyoyo",
-      "service":null
+      "id": 1,
+      "role": "admin",
+      "userName": "adminyoyo",
+      "service": null
     },
     {
-      "id":2,
-      "role":"vendor",
-      "userName":"vendor1",
-      "service":"Music"
+      "id": 2,
+      "role": "vendor",
+      "userName": "vendor1",
+      "service": "Music"
     },
     {
-      "id":3,
-      "role":"vendor",
-      "userName":"vendor2",
-      "service":"Catering"
+      "id": 3,
+      "role": "vendor",
+      "userName": "vendor2",
+      "service": "Catering"
     },
     {
-      "id":4,
-      "role":"vendor",
-      "userName":"vendor3",
-      "service":"Deco"
+      "id": 4,
+      "role": "vendor",
+      "userName": "vendor3",
+      "service": "Deco"
     },
     {
-      "id":5,
-      "role":"user",
-      "userName":"user1",
-      "service":null
+      "id": 5,
+      "role": "user",
+      "userName": "user1",
+      "service": null
     }
   ],
-  "Events":[
-    {
-      "user":5,
-      "vendors":[3,4],
-      "comments":"kothu porota required"
-    }
+  "Events": [
+    [
+      "vendor1",
+      "vendor2"
+    ]
   ]
 }
